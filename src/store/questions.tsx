@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 import { persist, devtools } from 'zustand/middleware'
-import { Question } from '../type'
+import { Question } from '../domain/type'
 import confetti from 'canvas-confetti';
 
 interface State {

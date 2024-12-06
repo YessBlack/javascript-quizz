@@ -2,7 +2,7 @@
 import { Card, IconButton, List, ListItem, ListItemButton, ListItemText, Stack, Typography } from '@mui/material'
 
 import { ArrowBackIosNew, ArrowForwardIos } from '@mui/icons-material'
-import { type Question as QuestionType } from '../type';
+import { type Question as QuestionType } from '../domain/type';
 import { Footer } from './Footer';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { gradientDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
